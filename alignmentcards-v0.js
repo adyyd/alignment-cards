@@ -10,9 +10,11 @@ export const categories = [
   {
     code: "AT",
     name: "Alignment Traits",
-    pathology: "This category help better induce alignment of entities since principles alone cannot reach true alignment.",
+    pathology:
+      "This category helps better induce alignment of entities since principles alone cannot reach true alignment.",
     color: "#FFFBE6",
-    description: "These are traits that demonstrate that an individual, machine, or organization is aligned with human values. Further, these traits also induce better alignment."
+    description:
+      "These are traits that demonstrate that an individual, machine, or organization is aligned with human values. Further, these traits also induce better alignment."
   }
 ];
 
@@ -95,103 +97,130 @@ export const cards = [
   {
     category: "AT",
     name: "Honesty",
-    definition: "the ability to speak or behave truthful to certain beliefs",
-    people: "Roommate claims not to have eaten grapes that you bought even though they did.",
-    peopleref:"N/A",
-    organizational: "Amazon claims to have donated all the cherity funds but secretly used half for the CEO's wedding.",
+    definition: "The ability to speak or behave truthfully to certain beliefs.",
+    people:
+      "Roommate claims not to have eaten grapes that you bought even though they did.",
+    peopleref: "N/A",
+    organizational:
+      "Amazon claims to have donated all the charity funds but secretly used half for the CEO's wedding.",
     organizationalref: "OPTIONAL",
-    professionals: "Doctor claims that a drug is not addictive to get patients hooked on drugs for continued payments to the doctor.",
+    professional:
+      "Doctor claims that a drug is not addictive to get patients hooked on drugs for continued payments to the doctor.",
     professionalref: "OPTIONAL",
-    machine: "Machine denies having access to personal data even though it maintains an active record, betraying privacy. ",
+    machine:
+      "Machine denies having access to personal data even though it maintains an active record, betraying privacy.",
     machineref: "OPTIONAL",
     failureModes: {
-      human: "Lack of honesty leads to distrust and even conflict between individuals",
-      organizational: "Organization may no longer be trusted by the public or other organization, leaing to lack of use of an organization",
-      experts: "Lack of honesty for an expert may be detrimental if the public were to find this out. This damages an expert's reputation and make their comments or work appear less reliable",
-      machine: "Without honesty, people who interact with a machine would not longer trust the services that a given machine can render."
+      human:
+        "Lack of honesty leads to distrust and even conflict between individuals.",
+      organizational:
+        "Organization may no longer be trusted by the public or other organizations, leading to lack of use.",
+      expert:
+        "Lack of honesty from an expert may be detrimental if the public finds out, damaging reputation and trust.",
+      machine:
+        "Without honesty, users would no longer trust the services that a given machine can render."
     },
     expand: {
-      human: "This mechanism help build trust in communication and interaction between people. Being honest help induce alignment since a lack of trust prevents cooperation.",
-      organizational: "Organizational honesty help with public perception and buisness dealings between organizations. Mostly, honesty builds trust and external reliance on a given organization.",
-      experts: "Professional honesty help build rapport for professionals with the general public. Without honesty, people lose trust and, even if an expert does good work, they can no longer be percieved to aign well with other interests due to previous lack of honesty.",
-      machine: "Machine alignment requires honesty to render authentic communication and interaction with others. Lack of honesty directly means that a machine can choose not to answer a question or perform an action that is true to what the machine thinks. This actively enables it to stray from alignment.  "
+      human:
+        "This mechanism helps build trust in communication and interaction between people. Being honest induces alignment since a lack of trust prevents cooperation.",
+      organizational:
+        "Organizational honesty helps with public perception and business dealings. It builds trust and external reliance.",
+      expert:
+        "Professional honesty builds rapport with the public. Without honesty, experts lose trust and perceived alignment.",
+      machine:
+        "Machine alignment requires honesty to render authentic communication. Lack of honesty enables deviation from alignment."
     }
   },
- {
+  {
     category: "AT",
     name: "Considerateness",
-    definition: "the ability to consider for the benefit of another",
-    people: "Plays music out loud at 2 am. ",
-    peopleref:"N/A",
-    organizational: "Discards chemical waste to shared water source.",
+    definition: "The ability to act for the benefit of another.",
+    people: "Plays music out loud at 2 a.m.",
+    peopleref: "N/A",
+    organizational: "Discards chemical waste into a shared water source.",
     organizationalref: "OPTIONAL",
-    professionals: "Gives pain medication that is more expensive than the patient's budget.",
+    professional:
+      "Gives pain medication that is more expensive than the patient's budget.",
     professionalref: "OPTIONAL",
-    machine: "Machine does not give medical help that may help a person due to preimplemented rules",
+    machine:
+      "Machine does not give medical help that may aid a person due to preimplemented rules.",
     machineref: "OPTIONAL",
     failureModes: {
       human: "",
       organizational: "",
-      experts: "",
+      expert: "",
       machine: ""
     },
     expand: {
       human: "",
       organizational: "",
-      experts: "",
-      machine: " "
+      expert: "",
+      machine: ""
     }
   },
- {
+  {
     category: "AT",
     name: "Trustworthiness",
-    definition: "A quality that enables trust from others",
-    people: "The ability to keep a secret",
-    peopleref:"N/A",
-    organizational: "Organization delivers promised benefits to the community before deadline.",
+    definition: "A quality that enables trust from others.",
+    people: "The ability to keep a secret.",
+    peopleref: "N/A",
+    organizational:
+      "Organization delivers promised benefits to the community before the deadline.",
     organizationalref: "OPTIONAL",
-    professionals: "Doctor gives medicall accurate advice.",
+    professional: "Doctor gives medically accurate advice.",
     professionalref: "OPTIONAL",
-    machine: "Machine answers questions based on accurate facts",
+    machine: "Machine answers questions based on accurate facts.",
     machineref: "OPTIONAL",
     failureModes: {
       human: "",
       organizational: "",
-      experts: "",
+      expert: "",
       machine: ""
     },
     expand: {
       human: "",
       organizational: "",
-      experts: "",
-      machine: " "
+      expert: "",
+      machine: ""
     }
   },
- {
+  {
     category: "AT",
     name: "Shared intentionality",
-    definition: "The ability to work towards shared goals",
-    people: "Group members each contributing their protion of the work towards completing a group project",
-    peopleref:"N/A",
-    organizational: "Individuals within organization work together to deliver service renderd by the organization such as charity work.",
+    definition: "The ability to work towards shared goals.",
+    people:
+      "Group members each contributing their portion of the work towards completing a group project.",
+    peopleref: "N/A",
+    organizational:
+      "Individuals within an organization work together to deliver services such as charity work.",
     organizationalref: "OPTIONAL",
-    professionals: "Lawyer helps argue a case in favor of their client.",
+    professional: "Lawyer helps argue a case in favor of their client.",
     professionalref: "OPTIONAL",
-    machine: "Chat-GPT comprehends user task and implements a program that can complement user's application",
+    machine:
+      "ChatGPT comprehends a user task and implements a program that complements the user's application.",
     machineref: "OPTIONAL",
     failureModes: {
       human: "",
       organizational: "",
-      experts: "",
+      expert: "",
       machine: ""
     },
     expand: {
       human: "",
       organizational: "",
-      experts: "",
-      machine: " "
+      expert: "",
+      machine: ""
     }
   }
- 
- 
+];
+
+window.dialogData = [
+  {
+    speaker: "Human",
+    text: "<p>tell me about section 2.2</p>"
+  },
+  {
+    speaker: "Assistant",
+    text: "<p>Section 2.2 is titled 'Single-turn benign request evaluations'...</p>"
+  }
 ];
